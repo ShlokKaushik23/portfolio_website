@@ -537,7 +537,7 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Open Source Circular Economy Days Hackathon",
+      title: "Open Source Circulcvcvcxvar Economy Days Hackathon",
       dates: "June 10th, 2017",
       location: "Toronto, Ontario",
       description:
