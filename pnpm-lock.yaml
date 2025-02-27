@@ -4,7 +4,8 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
+importers:git remote remove origin
+
 
   .:
     dependencies:
