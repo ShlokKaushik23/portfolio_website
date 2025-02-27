@@ -557,7 +557,7 @@ export const DATA = {
       title: "Make School's Student App Competition 2017",
       dates: "May 19th - 21st, 2017",
       location: "International",
-      description: "Improved PocketDoc and submitted to online competition",
+      description: "Improved PockdsfsdfetDoc and submitted to online competition",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/make-school-hackathon.png",
       win: "Top 10 Finalist | Honourable Mention",
