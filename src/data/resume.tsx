@@ -74,7 +74,6 @@ export const DATA = {
     {
       company: "Data Analytics & Network Science (DANeS) Lab IIT Patna",
       href: "https://www.iitp.ac.in/~danes/index.html",
-      badges: [],
       location: "On-site",
       title: "Research Associate",
       logoUrl: "/iitp_logo.png",
@@ -89,7 +88,7 @@ export const DATA = {
     {
       company: "IIT Patna",
       href: "https://www.iitp.ac.in",
-      badges: [],
+      // badges: [],
       location: "On-site",
       title: "Teaching Assistant",
       logoUrl: "/iitp_logo.png",
@@ -101,7 +100,7 @@ export const DATA = {
     },
     {
       company: "Studio Morethanthat",
-      badges: [],
+      // badges: [],
       href: "https://www.studiomorethanthat.com/",
       location: "Remote (Prague, Czech Republic UK)",
       title: "Software Engineer (Prague, Czech Republic UK)",
@@ -114,7 +113,7 @@ export const DATA = {
     {
       company: "HCL Technologies",
       href: "https://www.hcltech.com/",
-      badges: [],
+      // badges: [],
       location: "Noida, India",
       title: " Graduate Engineer Trainee (Noida, India)",
       logoUrl: "/hcl_logo.jpg",
@@ -137,7 +136,7 @@ export const DATA = {
     {
       company: "Institute of Nurturing Quriosities X Keystone",
       href: "https://www.linkedin.com/company/ieee-adgitm-student-branch/ ",
-      badges: [],
+      // badges: [],
       location: "New Delhi, India",
       title: "Content Developer Intern (New Delhi, India)",
       logoUrl: "/sunali_intern.jpg",
@@ -149,7 +148,7 @@ export const DATA = {
     {
       company: "IEEE ADGITM",
       href: "https://www.linkedin.com/company/ieee-adgitm-student-branch/ ",
-      badges: [],
+      // badges: [],
       location: "New Delhi, India",
       title: "Chairperson IEEE Computer Society",
       logoUrl: "/ieee_logo.png",
@@ -161,7 +160,7 @@ export const DATA = {
     {
       company: "Harvard Conference",
       href: "https://www.hpair.org/",
-      badges: [],
+      // badges: [],
       location: "Remote",
       title: "Gold Delegate (Selection Rate 2-3%)",
       logoUrl: "/hpair_logo.jpg",
