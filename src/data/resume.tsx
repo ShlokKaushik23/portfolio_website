@@ -2,47 +2,47 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
+  name: "Shlok Kaushik",
+  initials: "SK",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
+  location: "India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "Mtech AI Student IIT Patna",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "Completed by Btech in CSE'22, Currently at IIT Patna pursuing my MTech in Artificial Intelligence, Build Apps that got recoginzed in 3 Newspaper in 2020, served as a CS Chairperson at IEEE ADGITM,  ● NominatedBinance Build for Bharat Hackathon, Top 114 Startup Ideations (2022), Attend HPAIR Conference among 300 delegates across globe, ",
+  avatarUrl: "/shlok.jpg",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning",
+    "Pytorch",
+    "GenAI",
+    "LLMs",
+    "Pandas",
+    "Numpy",
+    "Matpolio",
+    "Statistics",
+    "Mathematics",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "iitp.shlokkaushik@gmail.com",
+    tel: "+91-9870919285",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/ShlokKaushik23",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/shlokkaushik/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -72,110 +72,140 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Data Analytics & Network Science (DANeS) Lab IIT Patna",
+      href: "https://www.iitp.ac.in/~danes/index.html",
+      badges: [],
+      location: "On-site",
+      title: "Research Associate",
+      logoUrl: "/iitp_logo.png",
+      start: "May 2024",
+      end: "Ongoing",
+      description:
+        "● Attention-Based Spatial-Temporal Graph Networks for Traffic Flow Prediction Exploring GNN-based models for spatio-temporal forecasting to improve traffic flow prediction. Utilizing contrastive learning techniques to enhance feature fusion and capture complex traffic patterns." ,
+
+      description_:
+        " ● Solving Cold-Start in Cross-Domain Recommendations with GNN and LLMs Developing a hybrid recommendation system that integrates GNNs and LLMs to address cold-start challenges. Optimizing multi-modal embedding techniques to improve recommendation accuracy in sparse data scenarios.",
+    },
+    {
+      company: "IIT Patna",
+      href: "https://www.iitp.ac.in",
+      badges: [],
+      location: "On-site",
+      title: "Teaching Assistant",
+      logoUrl: "/iitp_logo.png",
+      start: "May 2024",
+      end: "Ongoing",
+      description:
+        "Conducting Labs and Classes of BTech Student in Programming Language and DBMS Course. Setting up their Exam Papers, Quizzes and evalution throughout curriculum." ,
+
+    },
+    {
+      company: "Studio Morethanthat",
+      badges: [],
+      href: "https://www.studiomorethanthat.com/",
+      location: "Remote (Prague, Czech Republic UK)",
+      title: "Software Engineer (Prague, Czech Republic UK)",
+      logoUrl: "/smtt_logo.png",
+      start: "July 2022",
+      end: "July 2023",
+      description:
+        "Developed responsive MPAs using React.js, Redux, and Tailwind CSS, translating Figma designs into pixel-perfect implementations. Optimized web applications for performance, SEO, and Core Web Vitals, while integrating. RESTful APIs and GraphQL endpoints. Implemented CI/CD pipelines.Achieved a 40% improvement in site loading times through lazy loading and code splitting techniques.",
+    },
+    {
+      company: "HCL Technologies",
+      href: "https://www.hcltech.com/",
+      badges: [],
+      location: "Noida, India",
+      title: " Graduate Engineer Trainee (Noida, India)",
+      logoUrl: "/hcl_logo.jpg",
+      start: "March 2022",
+      end: "June 2022",
+      description:
+        "Automated data extraction and processing pipelines using Python scripts, improving operational efficiency by 25%. Conducted unit testing and debugging on REST API integration projects, ensuring 100% seamless data flow across systems.",
+    },
+    {
+      company: "Studio Morethanthat",
+      href: "https://www.studiomorethanthat.com/",
+      location: "Remote (Prague, Czech Republic UK)",
+      title: " Web Designer & Developer Intern (Prague, Czech Republic UK)",
+      logoUrl: "/smtt_logo.png",
+      start: "June 2021",
+      end: "November 2021",
+      description:
+        "Designed and developed responsive web interfaces using HTML,CSS,Bootstrap, CharkaUI, AJAX, Javascript andJQuery. Deployed websites on Hostinger, optimized for SEO and performance, and integrated APIs, ensuring scalability and functionality.",
+    },
+    {
+      company: "Institute of Nurturing Quriosities X Keystone",
+      href: "https://www.linkedin.com/company/ieee-adgitm-student-branch/ ",
+      badges: [],
+      location: "New Delhi, India",
+      title: "Content Developer Intern (New Delhi, India)",
+      logoUrl: "/sunali_intern.jpg",
+      start: "Janaury 2021",
+      end: "Janaury 2022",
+      description:
+        "Curated study content for Physics, Chemistry and Mathematics (PCM) from Class 12 to JEE level, while managing app process and workflow to streamline learning and preparation.",
+    },
+    {
+      company: "IEEE ADGITM",
+      href: "https://www.linkedin.com/company/ieee-adgitm-student-branch/ ",
+      badges: [],
+      location: "New Delhi, India",
+      title: "Chairperson IEEE Computer Society",
+      logoUrl: "/ieee_logo.png",
+      start: "Janaury 2021",
+      end: "Janaury 2022",
+      description:
+        " IEEE Computer Society at IEEE ADGITM : Organized over 10 technical events and workshops, engaging more than 500 participants, and improved event feedback scores by 35%.",
+    },
+    {
+      company: "Harvard Conference",
+      href: "https://www.hpair.org/",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Gold Delegate (Selection Rate 2-3%)",
+      logoUrl: "/hpair_logo.jpg",
+      start: "August 2021",
+      end: "August 2022",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "The Harvard Project for Asian and International Relations (HPAIR) is a student-led organization that hosts conferences to discuss international issues in Asia. Selected among 300 Delegates with total participants of more than 50,000+ student across globe.",
     },
-    {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
+ 
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      school: "Indian Institute of Technology, Patna",
+      href: "https://www.iitp.ac.in/",
+      degree: "M.Tech Artificial Intelligence (Percentage: 83.9%)",
+      logoUrl: "/iitp_logo.png",
+      start: "August 2023",
+      end: "Ongoing",
+      description:
+        "The Harvard Project for Asian and International Relations (HPAIR) is a student-led organization that hosts conferences to discuss international issues in Asia. Selected among 300 Delegates with total participants of more than 50,000+ student across globe.",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
+      school: "Guru Gobind Singh Indraprastha University, New Delhi",
+      href: "http://www.ipu.ac.in/",
+      degree: "B.Tech Computer Science & Engineering (CPI: 8.41)",
+      logoUrl: "/ggispu_logo.png",
+      start: "Aug 2018",
+      end: "July 2022",
+    },
+    {
+      school: "DAV Public School",
+      href: "https://davpsbaghpat.org/",
+      degree: "Higher Secondary Education (Percentage: 86.4%)",
+      logoUrl: "/dav_logo.jpg",
       start: "2016",
-      end: "2021",
+      end: "2017",
     },
     {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "DAV Public School",
+      href: "https://davpsbaghpat.org/",
+      degree: "Secondary Education (CGPA: 9.8)",
+      logoUrl: "/dav_logo.jpg",
+      start: "2014",
+      end: "2015",
     },
   ],
   projects: [
@@ -304,26 +334,40 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Guest Speaker at IEEE ADGITM",
+      dates: "SPEAKER",
+      location: "October 2023",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Hosted a workshop on Full Stack Development and Career Guidance at IEEE ADGITM, attended by over 150 students, receiving a 90% positive feedback score.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+        "/ieee_logo.png",
+      mlh: "https://www.kaggle.com/shlokkaushik",
+      links: [
+        {
+          title: "Chairperson IEEE Computer Society",
+          
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://drive.google.com/file/d/1ndFRwDE8c18ntyDTPfK8w1USAAT2kcFG/view?usp=sharing",
+        },
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://drive.google.com/file/d/1kxWkFyv40nBN5pavNvVZ-GX0v4ZEEZxS/view?usp=sharing",
+        },
+        
+      ],
     },
     {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      title: "",
+      dates: "LLM & GNN",
+      location: "IIT Patna",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "Designed a hybrid recommendation system using GNNs and LLMs, improving prediction accuracy in sparse data scenarios by 20%. Addressed cold-start problems, enhancing multi-modal embedding techniques by 30%.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+      links: [
+        
+      ],
     },
     {
       title: "FirstNet Public Safety Hackathon",
