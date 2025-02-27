@@ -471,7 +471,7 @@ export const DATA = {
       dates: "August 26th - 27th, 2017",
       location: "Toronto, Ontario",
       description:
-        "Developed an open platform for people shipping items to same place to combine shipping costs and save money.",
+        "Developed an open platform for peoplexc, vdldkfd shipping items to same place to combine shipping costs and save money.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-6ix.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
