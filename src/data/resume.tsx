@@ -402,7 +402,7 @@ export const DATA = {
       ],
     },
     {
-      title: "Featured in Hindustan Times and Dainik Jagran",
+      title: "Featured in Hindustan Times & Dainik Jagran",
       dates: "INDIA",
       location: "August 2020",
       description:
