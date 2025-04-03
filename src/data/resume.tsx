@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Mtech AI Student IIT Patna",
   summary:
-    "Completed by Btech in CSE'22, Currently at IIT Patna pursuing my MTech in Artificial Intelligence, Build Apps that got recoginzed in 3 Newspaper in 2020, served as a CS Chairperson at IEEE ADGITM,  ● NominatedBinance Build for Bharat Hackathon, Top 114 Startup Ideations (2022), Attend HPAIR Conference among 300 delegates across globe, ",
+    "🎓 I'm currently pursuing my M.Tech in Artificial Intelligence at IIT Patna. I’m a builder at heart, a researcher by passion, and a tech explorer by soul.  💡 I specialize in blending AI/ML/GenAI, Full Stack Development, and innovative research to craft solutions that are not just functional—but impactful. Whether it’s training deep neural networks, designing ML models, or building intuitive web apps, I love turning complex problems into elegant, real-world solutions. ",
   avatarUrl: "/shlok.jpg",
   skills: [
     "Python", "C++", "Javascript", "Dart", "DSA", "OOPs", "System Design", 
@@ -78,14 +78,14 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "",
         icon: Icons.youtube,
         navbar: true,
       },

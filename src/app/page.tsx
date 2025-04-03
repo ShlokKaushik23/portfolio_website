@@ -120,12 +120,12 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  💼 Projects That Shaped Me
+
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  From smart AI models to full-stack web apps, I’ve built solutions that blend innovation with impact. Each project challenged me to think deeper, build better, and create with purpose.
+                  Here are some of my favorites 👇
                 </p>
               </div>
             </div>
@@ -144,8 +144,8 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
-                  // video={project.video}
-                  // links={project.links}
+                // video={project.video}
+                // links={project.links}
                 />
               </BlurFade>
             ))}
@@ -158,18 +158,13 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
+                  Beyond Academics
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  🎯 Beyond the Code
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  I’ve actively participated in hackathons, leadership roles, and global conferences. From leading tech communities to pitching startup ideas, these experiences have enriched my journey with collaboration, creativity, and real-world impact.
                 </p>
               </div>
             </div>
@@ -206,16 +201,26 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                💬 <strong>DMs Are Open (But I&apos;m Watching 👀)</strong> <br />
+                Have a question? Drop it in my WhatsApp like: <br />
+                👉 “Hey, quick one!” <br />
+                👉 “Mind helping with XYZ?” <br />
+                Not like: <br />
+                🚫 “Wanna grow your followers fast?” <br />
+                🚫 “Hi.” <em>(bro… what am I supposed to do with <q>hi</q>?)</em> <br />
+                <br />
+                Serious vibes only.{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href="https://wa.me/9870919285"
                   className="text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  with a direct question on twitter
-                </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                  Message me on WhatsApp
+                </Link>
+                
               </p>
+
             </div>
           </BlurFade>
         </div>
