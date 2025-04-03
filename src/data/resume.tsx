@@ -419,7 +419,7 @@ export const DATA = {
       ],
     },
     {
-      title: "Harvard Project for Asian and International Relations Conference",
+      title: "Harvard Project for Asian & International Relations Conference",
       dates: "CAMBRIDGE, MA",
       location: "August 2021",
       description:
