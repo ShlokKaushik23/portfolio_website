@@ -238,53 +238,52 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      // href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Efficient Traffic Flow Prediction ",
+      href: "https://github.com/dillionverma/portfolio",
+      dates: "",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a GNN-based spatio-temporal with knowledge distillation forecasting system, increasing traffic flow prediction accuracy by 15% and enabling better urban traffic management. Enhanced prediction accuracy using contrastive learning, improving feature fusion for complex traffic data by 25%.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "GNN",
+        "Knowledge Distillation",
+        "Spatio-Temporal",
+        "Deep Learning",
+        "PEMS-Dataset",
+        "Constrastive Learning",
+        "Transfer Learning",
+        
       ],
       links: [
         {
-          type: "Website",
-          // href: "https://chatcollect.com",
+          type: "DL Project",
+          href: "https://chatcollect.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/project/traffic_prediction.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
+      title: "Cross-Domain Recommendations",
       // href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Designed a hybrid recommendation system using GNNs and LLMs to solve Cold-Start in Cross-Domain Recommendations, improving prediction accuracy in sparse data scenarios by 20%. Addressed cold-start problems, enhancing multi-modal embedding techniques by 30%",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "LLMs",
+        "Gpt",
+        "LLama",
+        "GCN",
+        "Amazon Multi Domain Dataset",
+        "Embeddings",
+      
       ],
       links: [
         {
-          type: "Website",
+          type: "LLM Project",
           // href: "https://magicui.design",
           icon: <Icons.globe className="size-3" />,
         },
@@ -294,26 +293,26 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/project/llm_project.png",
       // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
+      title: "Social Media Web App",
       // href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      dates: "",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a feature-rich social media app using the MERN stack, including chat features, file sharing, and group conversations, providing seamless functionality and scalability. Integrated FaceAPI and FaceNet CNN for facial recognition, enhancing tagging accuracy by 30%, and utilized Twilio for real-time messaging.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React",
+        "Express",
+        "Mongo",
+        "Nodejs",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Twilio",
+        "FaceNET",
+        "Stream.io",
+        "APIs",
       ],
       links: [
         {
@@ -327,35 +326,85 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/project/social_app.png",
       // video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
-      title: "Automatic Chat",
+      title: "Class Management Apps ",
       // href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      dates: "",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Built apps enabling assignment management, video/audio sharing, and real-time teacher insights, improving remote learning experiences during COVID-19. Achieved a 20% increase in student engagement and streamlined remote teaching processes.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Flutter",
+        "Firebase",
+        "Dart",
+        "Authentication",
+        "DartUI",
+        "APIs",
+       
       ],
       links: [
         {
-          type: "Website",
+          type: "Mobile App",
           // href: "https://automatic.chat",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/project/flutter.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Medical-NLP-Web-App",
+      // href: "https://automatic.chat",
+      dates: "",
+      active: true,
+      description:
+        "This project focuses on developing an AI-based system that converts medical transcripts into structured SOAP (Subjective, Objective, Assessment, Plan) notes. By leveraging Natural Language Processing (NLP) techniques, the model extracts key medical details such as symptoms, diagnoses, treatments, and prognoses from physician-patient conversations.",
+      technologies: [
+        "NLP",
+        "Streamlit",
+        "NER",
+        "Sentiment Analysis",
+        "SOAP formatting",
+       
+      ],
+      links: [
+        {
+          type: "NLP Project",
+          // href: "https://automatic.chat",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/project/medical.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Texudio App",
+      // href: "https://automatic.chat",
+      dates: "",
+      active: true,
+      description:
+        "Multilingual Audio-to-Text Transcription using OpenAI Whisper. A simple web app that converts .mp3 audio files into accurate text transcriptions using OpenAI's Whisper model, all through a clean and responsive Streamlit interface.",
+      technologies: [
+        "Openai-whisper",
+        "Streamlit",
+        "torch",
+        "Ffmpeg",
+   
+       
+      ],
+      links: [
+        {
+          type: "NLP Project",
+          // href: "https://automatic.chat",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/project/texudio.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
