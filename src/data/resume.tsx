@@ -239,7 +239,7 @@ export const DATA = {
   projects: [
     {
       title: "Chat Collect",
-      href: "https://chatcollect.com",
+      // href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -257,7 +257,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          // href: "https://chatcollect.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -267,7 +267,7 @@ export const DATA = {
     },
     {
       title: "Magic UI",
-      href: "https://magicui.design",
+      // href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
       description:
@@ -285,12 +285,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          // href: "https://magicui.design",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          // href: "https://github.com/magicuidesign/magicui",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -299,7 +299,7 @@ export const DATA = {
     },
     {
       title: "llm.report",
-      href: "https://llm.report",
+      // href: "https://llm.report",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -318,12 +318,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          // href: "https://llm.report",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          // href: "https://github.com/dillionverma/llm.report",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -332,7 +332,7 @@ export const DATA = {
     },
     {
       title: "Automatic Chat",
-      href: "https://automatic.chat",
+      // href: "https://automatic.chat",
       dates: "April 2023 - March 2024",
       active: true,
       description:
@@ -351,7 +351,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          // href: "https://automatic.chat",
           icon: <Icons.globe className="size-3" />,
         },
       ],
