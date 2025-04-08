@@ -204,7 +204,7 @@ export const DATA = {
     {
       school: "Indian Institute of Technology, Patna",
       href: "https://www.iitp.ac.in/",
-      degree: "M.Tech Artificial Intelligence (Percentage: 83.9%)",
+      degree: "M.Tech Artificial Intelligence (Percentage: 84.5%)",
       logoUrl: "/iitp_logo.png",
       start: "August 2023",
       end: "Ongoing",
