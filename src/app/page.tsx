@@ -62,8 +62,8 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <div className="max-w-3xl mx-auto text-foreground dark:text-white font-sans text-sm space-y-2">
-          <div>🎓 I'm currently pursuing my <strong>M.Tech in Artificial Intelligence</strong> at <strong>IIT Patna</strong>.</div>
-          <div>🧠 I'm a <strong>builder at heart</strong>,<strong> researcher by passion</strong>, and <strong>tech explorer by soul</strong>.</div>
+          <div>🎓 I am currently pursuing my <strong>M.Tech in Artificial Intelligence</strong> at <strong>IIT Patna</strong>.</div>
+          <div>🧠 I am <strong>builder at heart</strong>,<strong> researcher by passion</strong>, and <strong>tech explorer by soul</strong>.</div>
           <div>🤖 I specialize in blending <strong>AI/ML/GenAI</strong>, <strong>full stack development</strong>, and <strong>innovative research</strong>.</div>
           <div>🛠️ I love building <strong>real-world solutions</strong>—whether it’s training deep neural networks or crafting ML models.</div>
           <div>🌐 From <strong>backend logic to intuitive UI</strong>, I turn complex problems into <strong>elegant, usable experiences</strong>.</div>
