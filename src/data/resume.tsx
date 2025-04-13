@@ -9,6 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Mtech AI Student IIT Patna",
+  resumeUrl: "https://drive.google.com/file/d/1qZZi8FHdsRHr9meAr2-N7aHg94tqf9Ud/view?usp=sharing",
   summary:
     "🎓 I'm currently pursuing my M.Tech in Artificial Intelligence at IIT Patna. I’m a builder at heart, a researcher by passion, and a tech explorer by soul.  💡 I specialize in blending AI/ML/GenAI, Full Stack Development, and innovative research to craft solutions that are not just functional—but impactful. Whether it’s training deep neural networks, designing ML models, or building intuitive web apps, I love turning complex problems into elegant, real-world solutions. ",
   avatarUrl: "/shlok.jpg",
@@ -207,7 +208,7 @@ export const DATA = {
       degree: "M.Tech Artificial Intelligence (Percentage: 84.5%)",
       logoUrl: "/iitp_logo.png",
       start: "August 2023",
-      end: "Ongoing",
+      end: "May 2025",
       description:
         "The Harvard Project for Asian and International Relations (HPAIR) is a student-led organization that hosts conferences to discuss international issues in Asia. Selected among 300 Delegates with total participants of more than 50,000+ student across globe.",
     },

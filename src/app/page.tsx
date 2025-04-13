@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import WavingHand from "@/components/wavinghand"
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -20,15 +21,32 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
+                
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={
+                  <>
+                    {`Hi, I'm ${DATA.name.split(" ")[0]} `}
+                    <WavingHand />
+                  </>
+                }
               />
+
+
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <a
+                href={DATA.resumeUrl} // Link to the resume file
+                target="_blank"
+               rel="noopener noreferrer"
+                className=" w-[180px] mt-4 inline-flex items-center justify-center gap-2 rounded-full px-3 py-1 bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 transition-all duration-300 border-2  dark:border-black hover:border-gray-400 text-sm whitespace-nowrap"
+              >
+                <span>📄</span> {/* Emoji for the download button */}
+                <span >Download Resume</span>
+              </a>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -43,11 +61,16 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
-        <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-            {DATA.summary}
-          </Markdown>
-        </BlurFade>
+        <div className="max-w-3xl mx-auto text-foreground dark:text-white font-sans text-sm space-y-2">
+          <div>🎓 I'm currently pursuing my <strong>M.Tech in Artificial Intelligence</strong> at <strong>IIT Patna</strong>.</div>
+          <div>🧠 I'm a <strong>builder at heart</strong>,<strong> researcher by passion</strong>, and <strong>tech explorer by soul</strong>.</div>
+          <div>🤖 I specialize in blending <strong>AI/ML/GenAI</strong>, <strong>full stack development</strong>, and <strong>innovative research</strong>.</div>
+          <div>🛠️ I love building <strong>real-world solutions</strong>—whether it’s training deep neural networks or crafting ML models.</div>
+          <div>🌐 From <strong>backend logic to intuitive UI</strong>, I turn complex problems into <strong>elegant, usable experiences</strong>.</div>
+        </div>
+
+
+
       </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -218,7 +241,7 @@ export default function Page() {
                 >
                   Message me on WhatsApp
                 </Link>
-                
+
               </p>
 
             </div>
